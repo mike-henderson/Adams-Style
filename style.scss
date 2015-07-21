@@ -1436,6 +1436,29 @@ input[type="submit"]{
 }
 input[type="submit"]:hover { background-color: #333; }
 
+/** Library Search **/
+.libsearch {
+border: 1px solid #006648;
+border-top: 2px solid #006648;
+}
+.libsearch div {
+display: flex;
+flex-flow: row wrap;
+align-content: stretch;
+}
+.libsearch label {
+flex: 1 100%;
+}
+.libsearch input {
+margin: 0;
+}
+.libsearch .libtext{
+flex-grow: 6;
+}
+.libsearch input[type="submit"]{
+flex-grow: 1;
+}
+
 #footer {
     background: #333;
     clear: both;
