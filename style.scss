@@ -3,10 +3,6 @@
 @import "_fonts";
 @import "_icons";
 
-@-webkit-viewport{width:device-width}
-@-moz-viewport{width:device-width}
-@-ms-viewport{width:device-width}
-@-o-viewport{width:device-width}
 @viewport{width:device-width}
 
 div,
@@ -19,9 +15,6 @@ span {
 body {
     background: #006648;
     background: image-url('bkgnd-content.jpg') repeat-x scroll left top #cccccc;
-    background: -moz-linear-gradient(top, #006648 20%, #ffffff 20%, #cccccc 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,#006648), color-stop(20%,#ffffff), color-stop(100%,#cccccc));
-    background: -webkit-linear-gradient(top, #006648 20%,#ffffff 20%,#cccccc 100%);
     background: linear-gradient(to bottom, #006648 20%,#ffffff 20%,#cccccc 100%);
     margin: 0;
     padding: 0;
@@ -90,16 +83,6 @@ td, th {
     background-size: 20% 100%, 20% 100%, 10% 100%, 10% 100%;
     background-attachment: local, local, scroll, scroll;
     background-repeat: no-repeat;
-    background-image:
-    -webkit-linear-gradient(left, #ffffff, rgba(255, 255, 255, 0)),
-    -webkit-linear-gradient(right, #ffffff, rgba(255, 255, 255, 0)),
-    -webkit-linear-gradient(left, #c3c3c5, rgba(195, 195, 197, 0)),
-    -webkit-linear-gradient(right, #c3c3c5, rgba(195, 195, 197, 0));
-    background-image:
-    -moz-linear-gradient(left, #ffffff, rgba(255, 255, 255, 0)),
-    -moz-linear-gradient(right, #ffffff, rgba(255, 255, 255, 0)),
-    -moz-linear-gradient(left, #c3c3c5, rgba(195, 195, 197, 0)),
-    -moz-linear-gradient(right, #c3c3c5, rgba(195, 195, 197, 0));
     background-image:
     linear-gradient(left, #ffffff, rgba(255, 255, 255, 0)),
     linear-gradient(right, #ffffff, rgba(255, 255, 255, 0)),
@@ -598,9 +581,6 @@ fieldset.search button {
     max-width: 1180px;
 
     @media all and (min-width:60em){
-        background: -moz-linear-gradient(top, #DDDCDD 0%, #aaa 100%);
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#DDDCDD), color-stop(100%,#aaa));
-        background: -webkit-linear-gradient(top, #DDDCDD 0%,#aaa 100%);
         background: linear-gradient(to bottom, #DDDCDD 0%,#aaa 100%);
     }
 }
@@ -1275,33 +1255,21 @@ ol.third-right {
 // }
 .yellow {
     background: #f6dca5;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#f6dca5),to(#fff));
-    background-image: -webkit-linear-gradient(top,#f6dca5,#fff);
-    background-image: -moz-linear-gradient(top,#f6dca5,#fff);
     background-image: linear-gradient(top,#f6dca5,#fff);
 }
 
 .gray {
     background: #e0e0d6;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#e0e0d6),to(#fff));
-    background-image: -webkit-linear-gradient(top,#e0e0d6,#fff);
-    background-image: -moz-linear-gradient(top,#e0e0d6,#fff);
     background-image: linear-gradient(top,#e0e0d6,#fff);
 }
 
 .green {
     background: #e6efc4;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#e6efc4),to(#fff));
-    background-image: -webkit-linear-gradient(top,#e6efc4,#fff);
-    background-image: -moz-linear-gradient(top,#e6efc4,#fff);
     background-image: linear-gradient(top,#e6efc4,#fff);
 }
 
 .lav {
     background: #f0e3ec;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#f0e3ec),to(#fff));
-    background-image: -webkit-linear-gradient(top,#f0e3ec,#fff);
-    background-image: -moz-linear-gradient(top,#f0e3ec,#fff);
     background-image: linear-gradient(top,#f0e3ec,#fff);
 }
 .columns_cont {
