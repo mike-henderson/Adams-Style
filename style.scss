@@ -1255,22 +1255,22 @@ ol.third-right {
 // }
 .yellow {
     background: #f6dca5;
-    background-image: linear-gradient(top,#f6dca5,#fff);
+    background-image: linear-gradient(to bottom,#f6dca5,#fff);
 }
 
 .gray {
     background: #e0e0d6;
-    background-image: linear-gradient(top,#e0e0d6,#fff);
+    background-image: linear-gradient(to bottom,#e0e0d6,#fff);
 }
 
 .green {
     background: #e6efc4;
-    background-image: linear-gradient(top,#e6efc4,#fff);
+    background-image: linear-gradient(to bottom,#e6efc4,#fff);
 }
 
 .lav {
     background: #f0e3ec;
-    background-image: linear-gradient(top,#f0e3ec,#fff);
+    background-image: linear-gradient(to bottom,#f0e3ec,#fff);
 }
 .columns_cont {
     width: 95%
@@ -1435,6 +1435,29 @@ input[type="submit"]{
     cursor: pointer;
 }
 input[type="submit"]:hover { background-color: #333; }
+
+/** Library Search **/
+.libsearch {
+border: 1px solid #006648;
+border-top: 2px solid #006648;
+}
+.libsearch div {
+display: flex;
+flex-flow: row wrap;
+align-content: stretch;
+}
+.libsearch label {
+flex: 1 100%;
+}
+.libsearch input {
+margin: 0;
+}
+.libsearch .libtext{
+flex-grow: 6;
+}
+.libsearch input[type="submit"]{
+flex-grow: 1;
+}
 
 #footer {
     background: #333;
