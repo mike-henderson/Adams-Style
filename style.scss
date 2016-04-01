@@ -803,7 +803,12 @@ fieldset.search button {
     text-decoration: underline;
 }
 #home_right a:hover { color: #f2ce68 }
-
+#home_right.dark {
+    background-color: #333;
+}
+#home_right.dark h3 {
+    color: #fff;
+}
 #content_cont {
     background-color: #fff;
     margin: 0 auto;
